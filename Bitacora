@@ -1,0 +1,7 @@
+HTML//se agrega el html para crear el html para inicial lacreacion del la  pagina 
+HEAD//se agregan metas por defecto,se agrega el link para unir el html con el css
+BODY//se agrega el form para crear el formulario,h1 para agragar el titulo,se separan por divs las imagenes(img)como foto email,github,foto de perfil,se agraga h1 para el titulo de la tabla,
+TABLE//se crea la tabla que indica los lenguajes de computadora(html,java,etc),se cierra la tabla
+2 parte de divs//se separan por divs el titulo con h1(social Snakes),img(html),h4 para escribir decripcion,a href para agregar vinculos,con h1 se crea el titulo contact me,se agrega 
+un input de first name para agragar el nombre,se agreg un input de email para insertar el email,se agrega un label para agrear un minititulo de mensaje ,se agrega un textarea para agregar 
+un mensaje ,se agrega un button para agregar un boton para enviar mensaje  se cierra el formulario,el body y html
