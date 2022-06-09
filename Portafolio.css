@@ -1,0 +1,18 @@
+table{
+    background-color: rgb(78, 124, 128);
+    border-style: inset;
+    border: 1px solid;
+}
+body{
+    background-color: rgb(116, 75, 173);
+}
+h1{
+    background-color: rgb(168, 192, 214);
+    border: 1px solid;
+}
+table, th, td{
+    border: 1px solid;
+}
+textarea{
+    background-color: rgb(158, 158, 97);
+}
