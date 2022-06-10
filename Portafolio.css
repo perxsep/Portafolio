@@ -16,3 +16,8 @@ table, th, td{
 textarea{
     background-color: rgb(158, 158, 97);
 }
+#yo{
+    border-style: solid;
+    object-fit:initial;
+}
+
