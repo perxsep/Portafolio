@@ -1,78 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Portafolio.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="portafolio.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <title>Lorem Portfolio | Project 1</title>
 </head>
 <body>
-    <form>
-        <h1>Piero Sepulveda</h1>
+  <header>
+    <div id="showcase">
+      <div class="showcase-banner">
+        <h1 class="subpage">Piero Sepulveda</h1>
+        <p class="large">Portafolio 2022(Programacion)</p>
         <div>
-        <img id="yo"src="yo.jpg" width="145" height="250" alt="perfil">
-        </div>
-        <div>
-        <img src="github.png" width="50" height="50" alt="git">
-        <a href="https://github.com/perxsep">My Github</a>
-        </div>
-        <div>          
-            
-        <img src="mail.png" width="50" height="50" alt="correo">
-        </div>
-            <h1>Technologies:</h1>
-<table>
-    <tr>
-        <th>Front-End</th>
-        <th>Python</th>
-        <th>Javascript</th>
-        <th>Database</th>
-        <th>Concepts</th>
-    </tr>
-    <tr>
-        <td>HTML5</td>
-        <td>Django</td>
-        <td>Express</td>
-        <td>MySQL</td>
-        <td>AJAX</td>
-    </tr>
-    <tr>
-        <td>CSS3</td>
-        <td>Flask</td>
-        <td>Monogoose</td>
-        <td>MonogoDB</td>
-        <td>OOP</td>
-    </tr>
-    <tr>
-        <td>Boostrap</td>
-        <td>Unitest</td>
-        <td>React</td>
-        <td></td>
-        <td>REST</td>
-    </tr>
-</table>
-        <div>
-            <h1>Social Snakes</h1>
-            <img src="html.webp" width="80" height="80" alt="social">
-            <h4>Social Media App made in Python-</h4>
-            <a href="">code</a>
-            <a href="">develop</a>
-        </div>
-        <div>
-            <h1>Contact Me:</h1>
-            <label for="fname">Name:*</label><br>
-            <input type="text" id="fname" name="fname"><br>
-        </div>
-        <div>
-            <label for="email">Email:*</label><br>
-            <input type="email" id="email" name="email">
-        </div>
-        <div>
-            <label>Message:*</label><br>
-            <textarea></textarea><br>
-            <button>Send Message</button>
-        </div>
-    </form>
+            </div>
+            <div>
+            <img src="github.png" width="50" height="50" alt="git">
+            <a href="https://github.com/perxsep">My Github</a>
+            </div>
+            <div>          
+                
+            <img src="mail.png" width="50" height="50" alt="correo"><a>piero.sepulveda.vallejos@alumnos.sip.cl</a>
+            </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="single-project">
+    
+    <div class="container">
+        <img id="yo"src="yo.PNG" width="200" height="200" alt="perfil">
+      <div class="box-portfolio">
+        <img src="img/portfolio/1-green.png" alt="">
+        <h4>Acerca de mi:</h4>
+        <p>hola soy piero Sepulveda y soy desarrollador web, mis lenguajes de programacion favoritos son html y css, uno de mis pasatiempos favoritos es informarme y saber mas sobre la programacion ademas de jugar con computadora. </p>
+        
+    
+      </div>
+      <div class="box-portfolio">
+        <h4>Contactame</h4>
+        
+
+
+        <div class="features-contact">
+            <div class="box-form">
+              <div id="contact-form">
+                <div class="single-form">
+                  <input type="text" value="Name">
+                </div>
+                <div class="single-form">
+                  <input type="email" value="Email">
+                </div>
+                <div class="single-form">
+                  <textarea name="message" id="" cols="30" rows="10">Message...</textarea>
+                </div>
+                <div class="single-form">
+                  <button class="btn btn-dark">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <h2>Tecnologias</h2>
+      <table>
+          <tr>
+              <th>Front-End</th>
+              <th>Python</th>
+              <th>Javascript</th>
+              <th>Database</th>
+              <th>Concepts</th>
+          </tr>
+          <tr>
+              <td>HTML5</td>
+              <td>Django</td>
+              <td>Express</td>
+              <td>MySQL</td>
+              <td>AJAX</td>
+          </tr>
+          <tr>
+              <td>CSS3</td>
+              <td>Flask</td>
+              <td>Monogoose</td>
+              <td>MonogoDB</td>
+              <td>OOP</td>
+          </tr>
+          <tr>
+              <td>Boostrap</td>
+              <td>Unitest</td>
+              <td>React</td>
+              <td></td>
+              <td>REST</td>
+          </tr>
+      </table>
+    </div>
+
 </body>
 </html>
